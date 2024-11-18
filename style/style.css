@@ -25,11 +25,16 @@ body{
     margin-right: 8px;
 }
 /******************** Left Side Styling *************/
+.parent-left-side{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
 .left_side{
     width: 350px;
     display: flex;
     flex-direction: column;
-    height: 95vh;
+    height: max-content;
     border: 0.6px solid rgba(255, 255, 255, 0.6);
     border-radius: 15px;
     align-items: center;
